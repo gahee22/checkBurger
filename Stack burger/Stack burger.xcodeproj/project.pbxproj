@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18940D4B25E2C49100BC23E0 /* YearlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18940D4A25E2C49100BC23E0 /* YearlyViewController.swift */; };
 		BB98793E25D37E930028F4B2 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB98793D25D37E930028F4B2 /* SettingTableViewCell.swift */; };
 		BB98796A25D38DD60028F4B2 /* DailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB98796925D38DD60028F4B2 /* DailyViewController.swift */; };
 		BB98796E25D38DF40028F4B2 /* OpensourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB98796D25D38DF40028F4B2 /* OpensourceViewController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18940D4A25E2C49100BC23E0 /* YearlyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearlyViewController.swift; sourceTree = "<group>"; };
 		BB98793D25D37E930028F4B2 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
 		BB98796925D38DD60028F4B2 /* DailyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyViewController.swift; sourceTree = "<group>"; };
 		BB98796D25D38DF40028F4B2 /* OpensourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpensourceViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				BBD5230A25CB28F6005FDA93 /* AppDelegate.swift */,
 				BBD5230C25CB28F6005FDA93 /* SceneDelegate.swift */,
 				BBD5230E25CB28F6005FDA93 /* ViewController.swift */,
+				18940D4A25E2C49100BC23E0 /* YearlyViewController.swift */,
 				BB98796925D38DD60028F4B2 /* DailyViewController.swift */,
 				BB98797125D3B4640028F4B2 /* DailyTableViewCell.swift */,
 				BBD5235E25CD7853005FDA93 /* SettingViewController.swift */,
@@ -168,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18940D4B25E2C49100BC23E0 /* YearlyViewController.swift in Sources */,
 				BB98796E25D38DF40028F4B2 /* OpensourceViewController.swift in Sources */,
 				BB98797225D3B4640028F4B2 /* DailyTableViewCell.swift in Sources */,
 				BB98796A25D38DD60028F4B2 /* DailyViewController.swift in Sources */,
