@@ -11,6 +11,8 @@ var settingTableViewCell = SettingTableViewCell()
 
 class SettingViewController: UIViewController {
     
+    //MARK: - properties
+    
     var settingList = ["iCloud 백업", "암호 설정", "푸쉬 알람", "오픈소스 라이선스", "현재버전"]
     
     @IBOutlet weak var settingTableView: UITableView!
@@ -31,7 +33,9 @@ class SettingViewController: UIViewController {
     
 }
 
+
 // MARK: - Table view data source
+
 extension SettingViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -57,15 +61,16 @@ extension SettingViewController: UITableViewDelegate {
         tableView.deselectRow(at: indexPath, animated: true)
         switch indexPath.row {
         case 0:
-            navigationController?.pushViewController(DailyViewController(), animated: true)
+            print("icloud")
+            
         case 1:
-            navigationController?.pushViewController(DailyViewController(), animated: true)
+            print("암호")
             
         case 2:
-            print("푸쉬알람 동작하는 곳")
+            print("푸쉬알람")
             
         case 3:
-            navigationController?.pushViewController(DailyViewController(), animated: true)
+            print("백업설정")
             
         case 4:
             let alert = UIAlertController(title: "현재 버전", message: "최신 버전입니다", preferredStyle: .alert)
