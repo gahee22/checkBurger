@@ -9,8 +9,11 @@
 /* Begin PBXBuildFile section */
 		BB98793E25D37E930028F4B2 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB98793D25D37E930028F4B2 /* SettingTableViewCell.swift */; };
 		BB98796A25D38DD60028F4B2 /* DailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB98796925D38DD60028F4B2 /* DailyViewController.swift */; };
-		BB98796E25D38DF40028F4B2 /* OpensourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB98796D25D38DF40028F4B2 /* OpensourceViewController.swift */; };
 		BB98797225D3B4640028F4B2 /* DailyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB98797125D3B4640028F4B2 /* DailyTableViewCell.swift */; };
+		BBA3892825E2D50F001D5272 /* GmarketSansMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = BBA3892725E2D50F001D5272 /* GmarketSansMedium.otf */; };
+		BBA3892D25E2E3AE001D5272 /* DailyFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA3892C25E2E3AD001D5272 /* DailyFooterView.swift */; };
+		BBA3893125E3CF99001D5272 /* MontlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA3893025E3CF98001D5272 /* MontlyViewController.swift */; };
+		BBA3893425E3D0F9001D5272 /* MontlyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA3893325E3D0F8001D5272 /* MontlyTableViewCell.swift */; };
 		BBD5230B25CB28F6005FDA93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD5230A25CB28F6005FDA93 /* AppDelegate.swift */; };
 		BBD5230D25CB28F6005FDA93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD5230C25CB28F6005FDA93 /* SceneDelegate.swift */; };
 		BBD5230F25CB28F6005FDA93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD5230E25CB28F6005FDA93 /* ViewController.swift */; };
@@ -25,8 +28,11 @@
 /* Begin PBXFileReference section */
 		BB98793D25D37E930028F4B2 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
 		BB98796925D38DD60028F4B2 /* DailyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyViewController.swift; sourceTree = "<group>"; };
-		BB98796D25D38DF40028F4B2 /* OpensourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpensourceViewController.swift; sourceTree = "<group>"; };
 		BB98797125D3B4640028F4B2 /* DailyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTableViewCell.swift; sourceTree = "<group>"; };
+		BBA3892725E2D50F001D5272 /* GmarketSansMedium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = GmarketSansMedium.otf; path = ../../../../../../Library/Fonts/GmarketSansMedium.otf; sourceTree = "<group>"; };
+		BBA3892C25E2E3AD001D5272 /* DailyFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyFooterView.swift; sourceTree = "<group>"; };
+		BBA3893025E3CF98001D5272 /* MontlyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontlyViewController.swift; sourceTree = "<group>"; };
+		BBA3893325E3D0F8001D5272 /* MontlyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontlyTableViewCell.swift; sourceTree = "<group>"; };
 		BBD5230725CB28F6005FDA93 /* Stack burger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stack burger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD5230A25CB28F6005FDA93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBD5230C25CB28F6005FDA93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,11 +79,13 @@
 				BBD5230A25CB28F6005FDA93 /* AppDelegate.swift */,
 				BBD5230C25CB28F6005FDA93 /* SceneDelegate.swift */,
 				BBD5230E25CB28F6005FDA93 /* ViewController.swift */,
+				BBA3893025E3CF98001D5272 /* MontlyViewController.swift */,
+				BBA3893325E3D0F8001D5272 /* MontlyTableViewCell.swift */,
 				BB98796925D38DD60028F4B2 /* DailyViewController.swift */,
 				BB98797125D3B4640028F4B2 /* DailyTableViewCell.swift */,
+				BBA3892C25E2E3AD001D5272 /* DailyFooterView.swift */,
 				BBD5235E25CD7853005FDA93 /* SettingViewController.swift */,
 				BB98793D25D37E930028F4B2 /* SettingTableViewCell.swift */,
-				BB98796D25D38DF40028F4B2 /* OpensourceViewController.swift */,
 				BBD5231025CB28F6005FDA93 /* Main.storyboard */,
 				BBD5231325CB28F9005FDA93 /* Assets.xcassets */,
 				BBD5231525CB28F9005FDA93 /* LaunchScreen.storyboard */,
@@ -92,6 +100,7 @@
 			children = (
 				BBD5232125CB2965005FDA93 /* UhBee Se_hyun Bold.ttf */,
 				BBD5232025CB2965005FDA93 /* UhBee Se_hyun.ttf */,
+				BBA3892725E2D50F001D5272 /* GmarketSansMedium.otf */,
 			);
 			path = Font;
 			sourceTree = "<group>";
@@ -156,6 +165,7 @@
 				BBD5231725CB28F9005FDA93 /* LaunchScreen.storyboard in Resources */,
 				BBD5232225CB2965005FDA93 /* UhBee Se_hyun.ttf in Resources */,
 				BBD5232325CB2965005FDA93 /* UhBee Se_hyun Bold.ttf in Resources */,
+				BBA3892825E2D50F001D5272 /* GmarketSansMedium.otf in Resources */,
 				BBD5231425CB28F9005FDA93 /* Assets.xcassets in Resources */,
 				BBD5231225CB28F6005FDA93 /* Main.storyboard in Resources */,
 			);
@@ -168,13 +178,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB98796E25D38DF40028F4B2 /* OpensourceViewController.swift in Sources */,
 				BB98797225D3B4640028F4B2 /* DailyTableViewCell.swift in Sources */,
 				BB98796A25D38DD60028F4B2 /* DailyViewController.swift in Sources */,
 				BBD5235F25CD7853005FDA93 /* SettingViewController.swift in Sources */,
+				BBA3893125E3CF99001D5272 /* MontlyViewController.swift in Sources */,
 				BB98793E25D37E930028F4B2 /* SettingTableViewCell.swift in Sources */,
 				BBD5230F25CB28F6005FDA93 /* ViewController.swift in Sources */,
+				BBA3892D25E2E3AE001D5272 /* DailyFooterView.swift in Sources */,
 				BBD5230B25CB28F6005FDA93 /* AppDelegate.swift in Sources */,
+				BBA3893425E3D0F9001D5272 /* MontlyTableViewCell.swift in Sources */,
 				BBD5230D25CB28F6005FDA93 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,6 +337,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5GQ6QL9S3X;
 				INFOPLIST_FILE = "Stack burger/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +345,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ruheekim.Stack-burger";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -344,6 +357,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5GQ6QL9S3X;
 				INFOPLIST_FILE = "Stack burger/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -351,7 +365,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ruheekim.Stack-burger";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
