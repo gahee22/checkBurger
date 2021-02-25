@@ -40,10 +40,10 @@ class DailyViewController: UIViewController {
         let tap = UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing(_:)))
         view.addGestureRecognizer(tap)
         
-        let footer = UIView(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 300))
-        footer.backgroundColor = .red
-        
-        dailyTableView.tableFooterView = footer
+//        let footer = UIView(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 100))
+//        footer.backgroundColor = .red
+//
+//        dailyTableView.tableFooterView = footer
         
         
 
@@ -53,7 +53,7 @@ class DailyViewController: UIViewController {
         
         backBox.widthAnchor.constraint(equalToConstant: 30).isActive = true
         backBox.heightAnchor.constraint(equalToConstant: 30).isActive = true
-        footer.addSubview(backBox)
+//        footer.addSubview(backBox)
        
    
         
@@ -61,7 +61,7 @@ class DailyViewController: UIViewController {
     
     
     @IBAction func backButton(_ sender: UIButton) {
-        navigationController?.pushViewController(MontlyViewController(), animated: true)
+        navigationController?.popViewController(animated: true)
     }
     
     @IBAction func addButton(_ sender: UIButton) {
@@ -133,22 +133,22 @@ extension DailyViewController: UITableViewDataSource {
 //        header.textLabel?.font = UIFont(name: "UhBee Se_hyun", size: 13)
 //    }
     
-    func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
-        "🍔 Stack your life 🍔"
-    }
-    
-    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-        60
-    }
-    
-    func tableView(_ tableView: UITableView, willDisplayFooterView view: UIView, forSection section: Int) {
-        view.tintColor = .white
-        let footer = view as! UITableViewHeaderFooterView
-        footer.textLabel?.textColor = .orange
-        footer.textLabel?.textAlignment = .center
-        footer.textLabel?.font = UIFont(name: "UhBee Se_hyun", size: 15)
-    
-    }
+//    func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
+//        "🍔 Stack your life 🍔"
+//    }
+//
+//    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+//        40
+//    }
+//
+//    func tableView(_ tableView: UITableView, willDisplayFooterView view: UIView, forSection section: Int) {
+//        view.tintColor = .systemIndigo
+//        let footer = view as! UITableViewHeaderFooterView
+//        footer.textLabel?.textColor = .orange
+//        footer.textLabel?.textAlignment = .center
+//        footer.textLabel?.font = UIFont(name: "UhBee Se_hyun", size: 15)
+//
+//    }
 
     
     

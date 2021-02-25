@@ -37,6 +37,7 @@ class MontlyViewController: UIViewController {
     }
     
     @IBAction func backButton(_ sender: UIButton) {
+        navigationController?.popViewController(animated: true)
     }
     
     @IBAction func addButton(_ sender: UIButton) {
